@@ -32,7 +32,7 @@ kubectl apply -f kubernetes/deployment-nodejs.yaml
 kubectl apply -f kubernetes/service-web.yaml
 ````
 
-Accéder à l'API
+Accéder au service
 ````bash
 minikube service nodejs-service
 ````
